@@ -1,0 +1,45 @@
+.galary{
+    margin: 40px 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+
+    padding: 20px;
+    border-radius: 20px;
+    border: 10px solid #2c129f;
+}
+.galary-text{
+    margin-left: 5%;
+    width: 50%;
+    margin-left: 10px;
+    padding: 0 20px;
+}
+.galaryimg{
+    width: 50%;
+    margin-right: 10%;
+    border-radius: 5px;
+}
+.colorspan{
+    color: #ff00db;
+}
+.galary-text p{
+    color:#000;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+@media screen and (max-width: 1500px){
+  .galary{
+    width: 100%;
+    margin: 0;
+    padding: 5px;
+  }
+  .galary-text{
+      width: 65%;
+  }
+  .galaryimg{
+      width: 35%;
+
+  }
+}

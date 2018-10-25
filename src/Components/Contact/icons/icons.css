@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css?family=Oswald|Ranga');
+
+
+.icon1{
+  display: flex;
+  justify-content: space-between;
+  margin: 50px 15%;
+}
+.icon{
+  font-size: 50px;
+  margin: 0 50px;
+}
+.struct{
+  height: 170px;
+  display:flex;
+  flex-direction: column;;
+  align-items: center;
+  justify-content: space-around;
+}
+.struct p{
+  font-family: 'Ranga', cursive;
+  font-size: 20px;
+}
+.struct h3{
+  font-family: 'Oswald', sans-serif;
+  font-size: 30px;
+}
+.r1{color:red;}
+.y1{color: orange;}

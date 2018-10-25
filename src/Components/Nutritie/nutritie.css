@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css?family=Sorts+Mill+Goudy');
+
+
+.nutritie{
+  display: flex;
+  margin: 40px 20%;
+  align-items: center;;
+}
+.nut-img{
+    height: 400px;
+    width: auto;
+    margin-left: 20px;
+}
+@media screen and (max-width: 1200px)
+{
+  .nutritie{
+    margin: 40px 5%;
+  }
+}
+.nut1{
+  font-family: 'Sorts Mill Goudy', serif;
+  font-size: 17px;
+}

@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css?family=Srisakdi');
+@import url('https://fonts.googleapis.com/css?family=Lobster');
+
+.section{
+    background-position: center center;
+    background-repeat: no-repeat; 
+    background-size: cover;    
+    
+}
+.section h2{
+    padding-top: 40px;
+    font-family: 'Srisakdi', cursive;
+    text-align: center;
+}
+.flex1{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.flex1 .flex2{
+    width: 400px;
+    margin: 0 10px;
+    font-family: 'Lobster', cursive;
+}
+.h{
+    text-align: right;
+}
+.h h3{
+    margin-bottom: 0;
+}
+.h p {
+    margin-top: 0;
+}
+
+

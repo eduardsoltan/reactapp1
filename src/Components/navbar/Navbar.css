@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css?family=Kalam');
+
+body{
+    margin: 0;
+    padding: 0;
+}
+.img{
+    height: 100px;
+    width: auto;
+    margin: 0 15px;
+
+}
+.divblock{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    z-index: 50;
+      background-color: #ffffff;
+    padding: 15px 0;
+
+    margin: 0 20%;
+    border-radius: 15px;
+    border: 6px solid #2c129f;
+}
+.divblock a{
+    text-decoration: none;
+    color: #2c129f;
+    font-weight: 800;
+    font-family:  'Kalam', cursive;
+    font-size: 30px;
+    margin: 0 20px;
+}
+.divblock a:hover{
+    color: red;
+}
+.block{
+     position: relative;
+    display: flex;
+    flex-direction: column;
+    border-radius: 5px;
+
+}
+.block1{
+    position: absolute;
+    top: 45px;
+    left: -25px;
+
+    display: flex;
+    width: 300px;
+    flex-direction: column;
+    border-radius: 10px;
+    background-color: #ecab10;
+    z-index: 100;
+    box-sizing: border-box;
+    box-shadow: 10px 10px 10px rgba(0,0,0,0.5);
+}
+.block1 a{
+   width: 100%;
+   position: relative;
+   left:-20px;
+   padding: 5px 25px;
+   color: white;
+   font-size:25px;
+
+}
+.a4{
+   border-bottom: 1px solid #ffffff;
+}
+.block1 a:hover{
+    color: red;
+}
+.img2{
+    text-align: center;
+    height: 150px;
+    width: auto;
+}
+.block3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.block2{
+    position: relative;
+    z-index: 40
+
+}
+.menu4{
+    width: 100%;
+    margin: 30px 0;
+    margin-bottom: 0;
+    background-color: black;
+    color: wheat;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.titlemenu{
+    align-self: center;
+}
+.menu4 h3{
+    margin: 0 15px;
+    padding: 0 15px;
+}
+@media screen and (max-width: 1800px){
+  .divblock{
+    margin: 0 10%;
+  }
+}

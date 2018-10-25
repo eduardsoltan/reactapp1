@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css?family=Sorts+Mill+Goudy');
+
+.pregtire-div{
+  display: flex;
+  margin: 50px 15%;
+}
+.text1{
+  padding-right: 30px;
+  font-family: 'Sorts Mill Goudy', serif;
+  font-size: 19px;
+  font-weight: 500;
+}
+.scoala{
+  border-radius: 40%;
+  border: 5px solid blue;
+}

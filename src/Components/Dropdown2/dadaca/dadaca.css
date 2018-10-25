@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css?family=Sorts+Mill+Goudy');
+
+.dadaca-flex{
+  display: flex;
+  margin: 50px 10%;
+  align-items: center;
+}
+.right-img{
+  width: 500px;
+  height: auto;
+  border-radius: 30px;
+  border: 6px solid red;
+  margin-left: 15px;
+}
+.paragraf{
+  font-family: 'Sorts Mill Goudy', serif;
+  font-size: 20px;
+}

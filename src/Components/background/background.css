@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css?family=Permanent+Marker');
+
+.background1{
+    background-color: violet;
+    
+}
+.backflex{
+    display: flex;
+    justify-content: space-around;
+    padding: 20px 0;
+}
+.backflex h1{
+    align-self: center;
+    font-family: 'Permanent Marker', cursive;
+}
